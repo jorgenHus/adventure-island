@@ -4,10 +4,9 @@ import './App.css';
 import stories from './img/books-removebg-preview.png';
 import characters from './img/characters-removebg-preview.png'
 import places from './img/places-removebg-preview.png'
+import Story from './components/Story';
 
-import story1_1 from './img/story1-1.jpg';
-import story1_2 from './img/story1-2.jpg';
-import story1_3 from './img/story1-3.jpg';
+
 
 function App() {
   const [output, setOutput] = useState('menu');
@@ -15,10 +14,10 @@ function App() {
   return (
     <div className="page">
       <div className="headliner" onClick={() => setOutput('menu')}>
-        <a>
-          back
+        {output !== 'menu' && (<a>
+          MENY | 
           {/* <MatIcon className="back-arrow-icon">arrow_back_ios</MatIcon> */}
-        </a>
+        </a>)}
         EVENTYRØYA
       </div>
       {output === 'menu' && (
@@ -29,21 +28,21 @@ function App() {
                 className="grid-item"
                 onClick={() => setOutput('stories')}
               >
-                <img src={stories} alt="Historier"/>
+                <img class="img-meny" src={stories} alt="Historier"/>
                 <div className="title">HISTORIER</div>
               </div>
               <div
                 className="grid-item"
                 onClick={() => setOutput('characters')}
               >
-                <img src={characters} alt="Karakterer"/>
+                <img class="img-meny" src={characters} alt="Karakterer"/>
                 <div className="title">KARAKTERER</div>
               </div>
               <div
                 className="grid-item"
                 onClick={() => setOutput('places')}
               >
-                <img src={places} alt="Steder"/>
+                <img class="img-meny" src={places} alt="Steder"/>
                 <div className="title">STEDER</div>
               </div>
             </div>
@@ -53,9 +52,7 @@ function App() {
       {output === 'stories' && (
         <div className="output">
           <div className="stories">
-            <div>
-              Stories output</div>
-
+            <Story></Story>
           </div>
         </div>
       )}

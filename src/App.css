@@ -44,7 +44,7 @@ body{
   align-items: center;
 }
 
-img {
+.img-meny {
   height: 200px;
   object-fit: contain;
 }
