@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/adventure-island/static/css/main.b117e751.css",
-    "main.js": "/adventure-island/static/js/main.f62ae1ca.js",
+    "main.css": "/adventure-island/static/css/main.c506d93f.css",
+    "main.js": "/adventure-island/static/js/main.0a7fc2b9.js",
     "static/js/787.5f3e1d43.chunk.js": "/adventure-island/static/js/787.5f3e1d43.chunk.js",
+    "static/media/story1-2.jpg": "/adventure-island/static/media/story1-2.51f33e2a7489cecbe448.jpg",
+    "static/media/story1-3.jpg": "/adventure-island/static/media/story1-3.0ad1581d65760b59d297.jpg",
     "static/media/story1-1.jpg": "/adventure-island/static/media/story1-1.52e6ede03263d82beef2.jpg",
+    "static/media/places-removebg-preview.png": "/adventure-island/static/media/places-removebg-preview.13624730cb0c0bed7538.png",
+    "static/media/books-removebg-preview.png": "/adventure-island/static/media/books-removebg-preview.f84dff55ee64a1a59594.png",
+    "static/media/characters-removebg-preview.png": "/adventure-island/static/media/characters-removebg-preview.60beeccb3b5cb20732de.png",
     "index.html": "/adventure-island/index.html",
-    "main.b117e751.css.map": "/adventure-island/static/css/main.b117e751.css.map",
-    "main.f62ae1ca.js.map": "/adventure-island/static/js/main.f62ae1ca.js.map",
+    "main.c506d93f.css.map": "/adventure-island/static/css/main.c506d93f.css.map",
+    "main.0a7fc2b9.js.map": "/adventure-island/static/js/main.0a7fc2b9.js.map",
     "787.5f3e1d43.chunk.js.map": "/adventure-island/static/js/787.5f3e1d43.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b117e751.css",
-    "static/js/main.f62ae1ca.js"
+    "static/css/main.c506d93f.css",
+    "static/js/main.0a7fc2b9.js"
   ]
 }
