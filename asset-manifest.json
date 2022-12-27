@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/adventure-island/static/css/main.b117e751.css",
-    "main.js": "/adventure-island/static/js/main.6880749c.js",
+    "main.js": "/adventure-island/static/js/main.f62ae1ca.js",
     "static/js/787.5f3e1d43.chunk.js": "/adventure-island/static/js/787.5f3e1d43.chunk.js",
     "static/media/story1-1.jpg": "/adventure-island/static/media/story1-1.52e6ede03263d82beef2.jpg",
     "index.html": "/adventure-island/index.html",
     "main.b117e751.css.map": "/adventure-island/static/css/main.b117e751.css.map",
-    "main.6880749c.js.map": "/adventure-island/static/js/main.6880749c.js.map",
+    "main.f62ae1ca.js.map": "/adventure-island/static/js/main.f62ae1ca.js.map",
     "787.5f3e1d43.chunk.js.map": "/adventure-island/static/js/787.5f3e1d43.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b117e751.css",
-    "static/js/main.6880749c.js"
+    "static/js/main.f62ae1ca.js"
   ]
 }
