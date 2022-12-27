@@ -5,7 +5,8 @@ import pic from './img/story1-1.jpg'
 function App() {
   return (
     <div className="App">
-      <h1>Eventyrøya</h1>
+      <h1>Adventure</h1>
+      <p>check this out</p>
       <img src={pic} alt="text"/>
     </div>
   );
